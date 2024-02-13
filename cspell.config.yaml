@@ -1,0 +1,11 @@
+version: "0.2"
+ignorePaths: []
+dictionaryDefinitions:
+  - name: malakal-dictionary
+    path: ./.cspell/malakal-dictionary.txt
+    addWords: true
+dictionaries:
+  - malakal-dictionary
+words: []
+ignoreWords: []
+import: []

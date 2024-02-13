@@ -1,0 +1,8 @@
+# Custom Dictionary Words
+hjkl
+ical
+malakal
+Malakal
+vdirsync
+vdirsyncher
+webdav
