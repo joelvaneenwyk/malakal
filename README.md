@@ -1,41 +1,42 @@
-* Malakal
+# Malakal
 
 Malakal is a day planner application. I crafted it because I was not able to find a comfortable calendar application for Linux.
 
 I consider it in a mostly usable state - I myself have been using it on a daily basis for around a year now. Bug reports, feature requests, and contributions are warmly welcomed.
 
-#+html: <img src="asset/screenshot.png" width="600"/>
+<!-- markdownlint-disable MD033 -->
+<img alt="Screenshot of day planner application" src="asset/screenshot.png" width="600"/>
 
-* Features
+## Features
 
-Core features:
+### Core features
 
-- quickly add/modify/relocate/clone/delete events
-- notify on event starts
-- stored as standard ical files
-- post-update command (for running e.g. vdirsyncher)
+- Quickly add/modify/relocate/clone/delete events
+- Notify on event starts
+- Stored as standard ical files
+- Post-update command (for running e.g. vdirsyncher)
 
-UI/UX features:
+### UI/UX features
 
-- click to edit event title
-- snapping mode (hold down shift to precision mode)
-- ctrl-z to undo modifications
-- drag on blank to create events
-- drag on an event to change its begin/end time or move the event
-- ctrl-drag on an event to clone it
-- right-click on an event to open menu (for event detail & deletion)
-- right-click on blank area to open calendar view
-- quickly jumping to dates in calendar view
-- current date/time indicator
-- full keyboard support for navigation/event manipulation
+- Click to edit event title
+- Snapping mode (hold down shift to precision mode)
+- Ctrl-z to undo modifications
+- Drag on blank to create events
+- Drag on an event to change its begin/end time or move the event
+- Ctrl-drag on an event to clone it
+- Right-click on an event to open menu (for event detail & deletion)
+- Right-click on blank area to open calendar view
+- Quickly jumping to dates in calendar view
+- Current date/time indicator
+- Full keyboard support for navigation/event manipulation
 
-Typical calendar features that are not supported by malakal:
+Typical calendar features that are **not** supported by Malakal:
 
-- synchronization/webdav: for now, you can use vdirsync for synchronization
-- command line query: malakal happily shares local ical files with [[https://github.com/pimutils/khal][khal]]
-- recurrent events: it may add a lot of complexity so it's not currently planned
+- Synchronization/webdav: for now, you can use vdirsync for synchronization
+- Command line query: malakal happily shares local ical files with [khal](https://github.com/pimutils/khal)
+- Recurrent events: it may add a lot of complexity so it's not currently planned
 
-* Keyboard shortcuts
+## Keyboard shortcuts
 
 | Keys            | Actions                            |
 |-----------------+------------------------------------|
@@ -48,12 +49,12 @@ Typical calendar features that are not supported by malakal:
 
 Arrow keys can be substituted for vim-style navigation keys (hjkl) in all above cases.
 
-* Installation
+## Installation
 
 If you have rust on your computer, you can type:
 
-#+begin_src
+```bash
 cargo install malakal
-#+end_src
+```
 
 Alternatively, you can download the binary from release page.
