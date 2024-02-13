@@ -1,6 +1,7 @@
 # Custom Dictionary Words
 hjkl
 ical
+khal
 malakal
 Malakal
 vdirsync
