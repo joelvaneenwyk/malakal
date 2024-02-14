@@ -1,4 +1,6 @@
 # Custom Dictionary Words
+eframe
+egui
 hjkl
 ical
 khal
